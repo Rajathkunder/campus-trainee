@@ -1,0 +1,211 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: white;
+}
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: black;
+  background: #5858f4;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  left:95%;
+  top:-35px;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 28px;
+  height: 28px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sidebar{
+	position: fixed;
+	left: -255px;
+	width: 250px;
+	height: 100%;
+	background: #042331;
+	transition: all .5s ease;
+	margin-top: 0px;
+}
+.sidebar header{
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #063146;
+	user-select: none;
+	transition: all .5s ease;
+}
+.sidebar a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255, 255, 2555, .1);
+	border-bottom: 1px solid black;
+}
+li:hover{
+	padding-left: 20px;
+}
+#check1{
+	display: none;
+}
+
+label #btn, label #btn2{
+	position: absolute;
+	cursor: pointer;	
+	background: #042331;
+	border-radius: 3px;
+}
+label #btn{
+	left: 15px;
+	top: 8px;
+	font-size: 35px;
+	color: white;
+	padding: 6px 12px;
+	transition: all .5s ease;
+
+}
+label #btn2{
+	z-index: 1111;
+	left: -195px;
+	top: 17px;
+	font-size: 30px;
+	color: white;
+	padding: 4px 9px;
+	transition: all .5s ease;
+}
+	
+#check1:Checked ~ .sidebar{
+	left: 0;
+}
+#check1:Checked ~ label #btn{
+	left: 250px;
+	opacity: 0;
+	pointer-events: none;
+}
+#check1:Checked ~ label #btn2{
+	left: 195px;
+	
+}
+h1{
+	text-transform: uppercase;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 25px;
+	padding-right: 100px;
+	padding-top: 20px;
+	color: white;
+}
+.nam{
+	background: #063133;
+	height: 70px;
+	margin-top: 0px;
+}
+.welcome{
+	background-color: white;
+}
+.contain{
+	height: 80px;
+}
+.div1{		
+			background:teal;
+			height: 80px;
+			
+			top: 70px;	
+			text-align: center;
+			padding-left: 500px;
+		}
+	.div1 h1{
+		text-align: center;
+		padding-right: 500px;
+
+	}
+	.div1 .btn{
+		position: relative;
+		color: red;
+		font-size: 20px;
+		border-radius: 90px;
+			height: 40px;
+			width: 100px;
+			bottom: 30px;
+			right: 10px;
+			float: right;
+	}
+	.btn:active{
+		bottom: 25px;
+	}
+	.div2{
+  		
+  		left:3;
+			background:black;
+			width: 250px;
+			height: 555px;
+			padding-top: 40px;
+		}
+		.div3{
+			position:absolute;
+ 			top: 150px;
+  		left:255px;
+			background:white;
+			height: 595px;
+			width: 1280px;
+			 right:0;
+		}
+		.img1{
+			border-radius: 50px;
+		}
+		.h{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  text-align: center;
+		}
+		.name{
+			 left: 40px;
+  		font-size: 20px;
+  		padding-left: 20px;
+   		padding-top: 20px;
+   		padding-bottom: 5px;
+		}
+		.name1{
+			padding-left: 20px;
+			padding-bottom: 10px;
+			font-size: 20px;	  
+  		left: 40px;
+   		font-family: Arial, Helvetica, sans-serif;
+		}
+		.btn{
+			
+		}

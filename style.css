@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+body{
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container1{
+	position: relative;
+	width: 100%;
+	max-height: 1000px;
+	min-width: 700px;
+	background: #fff;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.profileText{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.imgBx{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profileText h1{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+
+}
+.leftside{
+	position: relative;
+
+	background: #003147;
+	padding: 40px;
+}
+.contact{
+	padding-top: 20px;
+	color: white;
+}
+.text{
+	color: #03a9f4;
+	font-weight: 300;
+}
+.title
+{
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+
+}
+.education li{
+	margin-bottom: 15px;
+
+}
+.education h4{
+	margin-bottom: 15px;
+	color: #03a9f4;
+	margin-left: 30px;
+	font-weight: 500;
+}
+.education h3{
+	color: black;
+	margin-left: 30px;
+	font-weight: 500;
+
+}
+.language{
+	color: #fff;
+	font-weight: 500;
+}
+.rightside{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+h1{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 25px;
+}
+p{
+	margin-left: 35px;
+}
+h2{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.skill ul li{
+	list-style: disc;
+	margin-left: 70px;
+}
